@@ -1,45 +1,42 @@
+param (
+    [ValidateRange(1,365)]
+    [int]$TimeSpan = 30,
+
+    [string]$OutputLog
+)
+
+# Default log file if none supplied
+if (-not $OutputLog) {
+    $OutputLog = (Get-Date -Format "yyyy_MM_dd_HHmmss") + ".log"
+}
+
+# Timing start
 $StartTime = Get-Date
 $Stopwatch = [System.Diagnostics.Stopwatch]::StartNew()
 
+$CutOff = (Get-Date).AddDays(-$TimeSpan)
 
-param(
-  [ValidateRange(1,365)]
-  [int]$TimeSpan = 30]
-  )
+$VMs = Get-VM |
+    Where-Object { $_.CreationTime -ge $CutOff } |
+    Select-Object Name, State, Uptime, CreationTime |
+    Sort-Object CreationTime
 
-param(
-  [string]$OutputLog
-  )
+$VMs | Out-File $OutputLog
 
-  if (-not $OutputLog){ 
-    $OutputLog = (Get-Date -Format "yyyy_MMdd_HHmmss") + ".log"
-    }
-
-    
-
-  $cutoff = (Get-Date).AddDays(-$TimeSpan)
-
-  Get-VM |
-  Where-Object {$_.CreationTime -ge $cutoff)} |
-  Select-Object Name, State, Uptime, CreationTime | 
-  Sort-Object CreationTime
-
+# Timing end
 $Stopwatch.Stop()
-$EndTime = Get-Date
-$DurationMs = $Stopwatch.Elapsed
-$VmCount = $VMs.Count
+$EndTime  = Get-Date
+$Duration = $Stopwatch.Elapsed
+$VmCount  = $VMs.Count
 
 $Summary = @"
 Execution Summary
 ---------------------------
-Start Time:      $StartTime
-End Time:        $EndTime
-Duration:        $($Duration.ToString())
-VMs Processed:   $VmCount
-TimeSpan (Days): $TimeSpan
+Start Time        : $StartTime
+End Time          : $EndTime
+Duration          : $($Duration.ToString())
+VMs Processed     : $VmCount
+TimeSpan (Days)   : $TimeSpan
 "@
 
 $Summary | Tee-Object -FilePath $OutputLog -Append
-
-  
-  
