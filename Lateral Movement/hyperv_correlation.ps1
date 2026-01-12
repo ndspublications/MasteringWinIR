@@ -42,8 +42,20 @@ $VMDetails = foreach ($VM in $VMs) {
 # Output VM detail data
 $VMDetails |
 Sort-Object CreationTime |
-Format-Table -AutoSize |
+Select-Object `
+    VMName,
+    State,
+    CreationTime,
+    SwitchName,
+    @{Name="IPAddresses";Expression={
+        if ($_.IPAddresses -and $_.IPAddresses.Trim() -ne "") {
+            $_.IPAddresses
+        } else {
+            "[Not Available]"
+        }
+    }} |
 Out-File $OutputLog
+
 
 # Timing end
 $Stopwatch.Stop()
