@@ -1,0 +1,6 @@
+#WIDE NET FOR VM ACTIVITY IN THE VMMS* EVENT LOGS
+
+
+Get-WinEvent -LogName "Microsoft-Windows-Hyper-V-VMMS*" |
+Where-Object { $_.Id -in 12000,12010,12020,13002,18304,2014,16641,18601,3086,18500,18609,18504,18506,18606,12148,12582 } |
+Select TimeCreated, Id, Message | format-list
