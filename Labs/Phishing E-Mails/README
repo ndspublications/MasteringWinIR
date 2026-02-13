@@ -1,0 +1,17 @@
+## ⚠ WARNING – Defensive Training Material ⚠
+
+The email samples contained in this directory are based on real-world phishing campaigns and have been modified for educational and defensive security training purposes.
+
+The following conditions apply:
+
+1. Archive passwords are provided only within the official print and PDF versions of the published material.
+2. All URLs, domains, and email addresses have been defanged (e.g., "[.]" substitutions).
+3. These materials are provided strictly for defensive education and incident response training. Use for offensive, malicious, or unauthorized purposes is prohibited.
+
+Note:
+Anti-virus software may generate alerts when interacting with these files.
+
+Before analyzing any samples:
+
+1. Do NOT execute, open, or interact with these files on production systems or networks.
+2. All analysis must be performed within isolated laboratory environments (e.g., offline virtual machines or sandbox environments).
