@@ -15,3 +15,5 @@ Before analyzing any samples:
 
 1. Do NOT execute, open, or interact with these files on production systems or networks.
 2. All analysis must be performed within isolated laboratory environments (e.g., offline virtual machines or sandbox environments).
+
+The author and Network Defense Solutions, Inc. assume no responsibility for misuse of these materials.
