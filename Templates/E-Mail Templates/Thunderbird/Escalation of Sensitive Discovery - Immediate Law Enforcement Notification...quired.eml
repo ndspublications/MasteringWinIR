@@ -1,0 +1,172 @@
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 01000000
+Message-ID: <1f8f3f17-81d8-4b42-a70f-c3e33f77cf6b@company>
+Date: Thu, 12 Feb 2026 18:14:46 -0500
+MIME-Version: 1.0
+User-Agent: Mozilla Thunderbird
+Content-Language: en-US
+From: Security Dept. <security@company.com>
+X-Enigmail-Draft-Status: N01222
+Subject: Escalation of Sensitive Discovery - Immediate Law Enforcement
+ Notification Required
+X-Mozilla-Draft-Info: internal/draft; vcard=0; receipt=0; DSN=0; uuencode=0;
+ attachmentreminder=0; deliveryformat=0
+X-Identity-Key: id21
+Fcc: mailbox://Security%40company.com@mail.company.com/Sent
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Escalation of Sensitive Discovery - Immediate Law Enforcement
+      Notification Required</title>
+  </head>
+  <body>
+    <p>Hello &lt;managers name, HR Manager&gt;, </p>
+    <p>On the date of: <b>&lt;date&gt;</b> and time: <b>&lt;time&gt;</b>
+      in time zone: <b>&lt;timezone&gt;</b> it was discovered that the
+      user: <b>&lt;username&gt;</b> with account: <b>&lt;account
+        name&gt;</b>, e-mail: <b>&lt;e-mail address&gt;</b>, system
+      serial number: <b>&lt;serial number&gt;</b> and dept.: <b>&lt;department&gt;</b>
+      was undergoing an investigation for an alert, or event that
+      occurred on: <b>&lt;date/time of event&gt;</b>. For your records
+      you can reference the following ticket number: <b>&lt;ticket
+        number&gt; </b></p>
+    <p>On the date noted, during our investigation it was determined
+      that the above stated user may have CSAM stored in the folder: <b>&lt;folder
+        name / direct path&gt;</b>. At the time of: &lt;date/time&gt;
+      when the material was first noted, the session has been terminated
+      and logged out. </p>
+    <p>With respect to local and federal laws the material must be
+      reported in a timely manner and must be preserved for PD and FBI.
+      &lt;username&gt; has not been notified. The user was told that the
+      event is being escalated to touch, use or modify the system in
+      chat (screen shot provided) and is currently awaiting further
+      assistance. </p>
+    <p>From this point forward all investigatory work will cease and
+      must be handed over to law enforcement. SOC Team will not be
+      furthering the investigation due to legalities, and safety reasons
+      / concerns. </p>
+    <p><br>
+    </p>
+    <table
+style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif; font-size: 14px;">
+      <tbody>
+        <tr>
+          <td colspan="2"
+style="background-color:#2f3e4e; color:white; padding:10px; font-size:16px;">
+            Incident Escalation Summary – Immediate Legal Notification </td>
+        </tr>
+        <!-- Discovery Information --> <tr>
+          <td colspan="2"
+style="background-color:#f2f2f2; padding:8px; font-weight:bold;">
+            Discovery Information </td>
+        </tr>
+        <tr>
+          <td style="padding:6px; width:30%; font-weight:bold;">Date
+            Discovered</td>
+          <td style="padding:6px;"><date></date><br>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:6px; font-weight:bold;">Time Discovered</td>
+          <td style="padding:6px;"><time> (<timezone>)</timezone></time></td>
+        </tr>
+        <tr>
+          <td style="padding:6px; font-weight:bold;">Related Event
+            Date/Time</td>
+          <td style="padding:6px;"><date time="" of="" event=""></date><br>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:6px; font-weight:bold;">Ticket Reference</td>
+          <td style="padding:6px;"><ticket number=""></ticket><br>
+          </td>
+        </tr>
+        <!-- User Information --> <tr>
+          <td colspan="2"
+style="background-color:#f2f2f2; padding:8px; font-weight:bold;"> User
+            &amp; System Information </td>
+        </tr>
+        <tr>
+          <td style="padding:6px; font-weight:bold;">Username</td>
+          <td style="padding:6px;"><username></username><br>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:6px; font-weight:bold;">Account Name</td>
+          <td style="padding:6px;"><account name=""></account><br>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:6px; font-weight:bold;">Email Address</td>
+          <td style="padding:6px;"><e-mail address=""></e-mail><br>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:6px; font-weight:bold;">Department</td>
+          <td style="padding:6px;"><department></department><br>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:6px; font-weight:bold;">System Serial
+            Number</td>
+          <td style="padding:6px;"><serial number=""></serial><br>
+          </td>
+        </tr>
+        <!-- Findings --> <tr>
+          <td colspan="2"
+style="background-color:#f2f2f2; padding:8px; font-weight:bold;">
+            Preliminary Findings </td>
+        </tr>
+        <tr>
+          <td style="padding:6px; font-weight:bold;">Location of
+            Material</td>
+          <td style="padding:6px;"><folder name="" direct="" path=""></folder><br>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:6px; font-weight:bold;">Time First Observed</td>
+          <td style="padding:6px;"><date time=""></date><br>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:6px; font-weight:bold;">Immediate Action
+            Taken</td>
+          <td style="padding:6px;"> Session terminated and user logged
+            out. Evidence preserved. No modification performed. </td>
+        </tr>
+        <!-- Legal & Escalation --> <tr>
+          <td colspan="2"
+style="background-color:#f2f2f2; padding:8px; font-weight:bold;"> Legal
+            &amp; Escalation Status </td>
+        </tr>
+        <tr>
+          <td style="padding:6px; font-weight:bold;">User Notification</td>
+          <td style="padding:6px;">User has NOT been informed of
+            material discovery.</td>
+        </tr>
+        <tr>
+          <td style="padding:6px; font-weight:bold;">Preservation
+            Requirement</td>
+          <td style="padding:6px;"> Material must be preserved and
+            reported</td>
+        </tr>
+        <tr>
+          <td style="padding:6px; font-weight:bold;">Investigation
+            Status</td>
+          <td style="padding:6px;"> SOC investigative activity has
+            ceased. Matter must be transferred to law enforcement
+            (PD/FBI). </td>
+        </tr>
+      </tbody>
+    </table>
+    <p><br>
+    </p>
+    <p><br>
+    </p>
+  </body>
+</html>

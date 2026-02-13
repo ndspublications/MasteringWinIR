@@ -1,0 +1,181 @@
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+Message-ID: <20ca8cb1-a8e8-4e24-b2aa-17155a9c0734@company.com>
+Date: Fri, 13 Feb 2026 10:30:11 -0500
+MIME-Version: 1.0
+User-Agent: Mozilla Thunderbird
+From: "Security Dept." <security@company.com>
+Subject: Detection of Shadow I.T.
+Content-Language: en-US
+X-Enigmail-Draft-Status: N11222
+X-Mozilla-Draft-Info: internal/draft; vcard=0; receipt=0; DSN=0; uuencode=0;
+ attachmentreminder=0; deliveryformat=0
+X-Identity-Key: id21
+Fcc: mailbox://security%4company.com@mail.company.com/Sent
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Escalation of Sensitive Discovery - Immediate Law Enforcement
+      Notification Required</title>
+  </head>
+  <body>
+    <p style="font-weight: normal">
+      <font face="Courier New, monospace">Hello &lt;managers name&gt;, </font>
+    </p>
+    <p style="font-weight: normal"><font face="Courier New, monospace">On
+        <b>&lt;date&gt;</b> it was discovered there is a potential
+        shadow I.T. asset within ticket:
+        <b>&lt;ticket number&gt;.</b> </font>
+    </p>
+    <p><font face="Courier New, monospace"><span
+          style="font-weight: normal">The initial investigation has been
+          completed. At this time, no confirmed business owner or
+          accountable unit has been identified as the owner of the asset</span></font></p>
+    <p><font face="Courier New, monospace"><span
+          style="font-weight: normal">To ensure proper governance and
+          risk management, we are requesting business escalation to
+          determine one or more of the following:</span></font></p>
+    <ul>
+      <li>
+        <p style="font-weight: normal"><font
+            face="Courier New, monospace">Potential owner of the asset.</font></p>
+      </li>
+      <li>
+        <p style="font-weight: normal"><font
+            face="Courier New, monospace">Potentially have security
+            controls installed on the device / asset.</font></p>
+      </li>
+      <li>
+        <p style="font-weight: normal"><font
+            face="Courier New, monospace">Assign potential risk to the
+            owning party, shareholder, stakeholder or business unit.</font></p>
+      </li>
+      <li>
+        <p style="font-weight: normal"><font
+            face="Courier New, monospace">Have the device disconnected
+            from the network within the allowable 30 day window. </font>
+        </p>
+      </li>
+      <li>
+        <p style="font-weight: normal"><font
+            face="Courier New, monospace">Remove the device after the
+            window has been exceeded. </font> </p>
+      </li>
+    </ul>
+    <p style="font-weight: normal"><font face="Courier New, monospace">Please
+        advise on the next steps or provide direction on how you would
+        like
+        for the SOC to proceed.</font></p>
+    <p style="font-weight: normal"><br>
+      <br>
+    </p>
+    <p style="font-weight: normal"><font face="Courier New, monospace">Thank
+        you, </font>
+    </p>
+    <p style="font-weight: normal"><font face="Courier New, monospace">SOC
+        Team.</font></p>
+    <table
+style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif; font-size: 14px;"
+      border="1">
+      <tbody>
+        <tr>
+          <td colspan="2"
+style="background-color:#2f3e4e; color:white; padding:10px; font-size:16px;">Shadow
+            I.T. Asset Identified</td>
+        </tr>
+        <!-- Discovery Information --> <tr>
+          <td colspan="2" style="padding: 8px; font-weight: bold;"
+            bgcolor="#ffff00"> Discovery Information </td>
+        </tr>
+        <tr>
+          <td style="padding:6px; width:30%; font-weight:bold;">Date
+            Discovered</td>
+          <td style="padding:6px;"><date></date><br>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:6px; font-weight:bold;">Time Discovered</td>
+          <td style="padding:6px;"><time> (<timezone>)</timezone></time></td>
+        </tr>
+        <tr>
+          <td style="padding:6px; font-weight:bold;">Related Event
+            Date/Time</td>
+          <td style="padding:6px;"><date time="" of="" event=""></date><br>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:6px; font-weight:bold;">Ticket Reference</td>
+          <td style="padding:6px;"><ticket number=""></ticket><br>
+          </td>
+        </tr>
+        <!-- User Information --> <tr>
+          <td style="padding: 8px; font-weight: bold;" colspan="2"
+            bgcolor="#ffff00">Asset Information</td>
+        </tr>
+        <tr>
+          <td style="padding:6px; font-weight:bold;">Operating System</td>
+          <td style="padding:6px;"><username></username><br>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:6px; font-weight:bold;">VM Hosted On (If
+            applicable)</td>
+          <td style="padding:6px;"><account name=""></account><br>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:6px; font-weight:bold;">IPv4 / IPv6
+            Addresses Discovered</td>
+          <td style="padding:6px;"><e-mail address=""></e-mail><br>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:6px; font-weight:bold;">Is VM Powered On?</td>
+          <td style="padding:6px;"><department></department><br>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:6px; font-weight:bold;">Has Appliance /
+            Device been rebooted?</td>
+          <td style="padding:6px;"><serial number=""></serial><br>
+          </td>
+        </tr>
+        <!-- Findings --> <tr>
+          <td colspan="2" style="padding: 8px; font-weight: bold;"
+            bgcolor="#ffff00">Observed Activity</td>
+        </tr>
+        <tr>
+          <td style="padding:6px; font-weight:bold;">Has network traffic
+            been observed?</td>
+          <td style="padding:6px;"><folder name="" direct="" path=""></folder><br>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:6px; font-weight:bold;">What other Hosts
+            did this asset send traffic to?</td>
+          <td style="padding:6px;"><date time=""></date><br>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:6px; font-weight:bold;">Actions Taken</td>
+          <td style="padding:6px;"><br>
+          </td>
+        </tr>
+        <!-- Legal & Escalation --> <tr>
+          <td style="padding:6px; font-weight:bold;">Investigation
+            Status</td>
+          <td style="padding:6px;"><br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p><br>
+    </p>
+    <p><br>
+    </p>
+  </body>
+</html>
