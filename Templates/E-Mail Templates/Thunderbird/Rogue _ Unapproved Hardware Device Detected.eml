@@ -1,0 +1,86 @@
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+Message-ID: <93e830b5-48bb-4d00-bd65-0ffa3c574097@Company.com>
+Date: Tue, 14 Apr 2026 11:27:04 -0400
+MIME-Version: 1.0
+User-Agent: Mozilla Thunderbird
+Content-Language: en-US
+From: Soc <Soc@Company.com>
+Subject: Rogue / Unapproved Hardware Device Detected
+X-Enigmail-Draft-Status: N11222
+X-Mozilla-Draft-Info: internal/draft; vcard=0; receipt=0; DSN=0; uuencode=0;
+ attachmentreminder=0; deliveryformat=0
+X-Identity-Key: id22
+Fcc: mailbox://soc%40Company.com@mail.company.com/Sent
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <body>
+    <p><font face="Courier New, monospace">Hello
+        &lt;manager&gt;,</font></p>
+    <p><font color="#000000"><font face="Courier New, monospace"><span
+            style="background: transparent">During
+            the analysis of ticket &lt;ticket number&gt;, the SOC
+            identified a
+            connected USB device on the affected system that presents
+            potentially
+            elevated risk characteristics based on observed behavior and
+            supporting artifacts. </span></font></font>
+    </p>
+    <p><font color="#000000"><font face="Courier New, monospace"><span
+            style="background: transparent">At
+            this point, the SOC has reached a decision boundary. The
+            available
+            evidence including correlation between device insertion and
+            PowerShell, prefetch, network and EDR activity is documented
+            in the
+            ticket. However, progressing further will require additional
+            authority and cross-team involvement (physical security or,
+            other
+            components of the security team not within SOC / IR reach).
+          </span></font></font>
+    </p>
+    <p><font color="#000000"><font face="Courier New, monospace"><span
+            style="background: transparent">Specifically,
+            continued investigation would require engagement from
+            physical
+            security and potentially other teams to secure the system,
+            document
+            the device and determine whether the USB hardware should be
+            obtained
+            as an item of investigative interest. </span></font></font>
+    </p>
+    <p><font color="#000000"><font face="Courier New, monospace"><span
+            style="background: transparent">The
+            end user has been notified to not engage with, modify,
+            change or
+            interact with the affected system until next steps are
+            confirmed.
+            Please advise how you’d like for the SOC / investigation to
+            proceed. </span></font></font>
+    </p>
+    <p><br>
+      <br>
+    </p>
+    <p><font color="#000000"><font face="Courier New, monospace"><span
+            style="background: transparent">Thank
+            you, </span></font></font>
+    </p>
+    <p><br>
+      <br>
+    </p>
+    <p><font color="#000000"><font face="Courier New, monospace"><span
+            style="background: transparent">SOC…</span></font></font></p>
+    <p><br>
+      <br>
+    </p>
+    <p><br>
+    </p>
+  </body>
+</html>

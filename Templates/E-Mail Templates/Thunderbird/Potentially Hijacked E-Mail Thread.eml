@@ -1,0 +1,100 @@
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+Message-ID: <bb510ba1-be60-420b-aaf8-588acb8a4d15@company.com>
+Date: Tue, 14 Apr 2026 10:19:48 -0400
+MIME-Version: 1.0
+User-Agent: Mozilla Thunderbird
+Content-Language: en-US
+From: SOC <SOC@company.com>
+Subject: Potentially Hijacked E-Mail Thread
+X-Enigmail-Draft-Status: N11222
+X-Mozilla-Draft-Info: internal/draft; vcard=0; receipt=0; DSN=0; uuencode=0;
+ attachmentreminder=0; deliveryformat=0
+X-Identity-Key: id22
+Fcc: mailbox://SOC%40company.com@mail.company.com/Sent
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <body>
+    <p><font face="Courier New, monospace">Hello
+        &lt;manager&gt;, </font>
+    </p>
+    <p><font face="Courier New, monospace">It has been brought to the
+        attention of the SOC on &lt;date&gt; that e-mail chain with
+        envelop-ID &lt;envelop-id&gt; which included CC’d users &lt;all
+        users&gt; and subject: &lt;subject&gt; was the target of
+        cc-hijacking. The user that injected themselves within the
+        e-mail
+        chain was recorded as: &lt;injected user&gt;. </font>
+    </p>
+    <p><font face="Courier New, monospace">The SOC has already performed
+        a preliminary investigation and determined that 2 months ago
+        &lt;injected user&gt; created mailbox rules:</font></p>
+    <p><font face="Courier New, monospace">&lt;rule1&gt;</font></p>
+    <p><font face="Courier New, monospace">&lt;rule2&gt;</font></p>
+    <p><font face="Courier New, monospace">to forward e-mails
+        originating
+        from &lt;affected user&gt; to the threat actor themselves. SOC
+        has
+        already blocked the offending e-mail, attempted to pull e-mails
+        from
+        inboxes of the affected individuals and, has locked the user
+        account
+        while also terminating any lingering sessions (O365, Mail, MFA).
+      </font>
+    </p>
+    <p><font face="Courier New, monospace">SOC team will also review the
+        following details for user: </font>
+    </p>
+    <p><font face="Courier New, monospace">Proxy logs to determine if a
+        malicious URL/Domain were accessed<br>
+        MFA devices for suspicious
+        activity or new additions<br>
+        Review of last </font><font color="#000000"><font
+          face="Courier New, monospace"><span
+            style="background: transparent">password</span></font></font><font
+        face="Courier New, monospace">
+        change in relation to last noted breach<br>
+      </font><font face="Courier New, monospace">Search
+        for any affected out-going e-mails with threat actors e-mail.</font></p>
+    <p><font face="Courier New, monospace">In addition to these steps,
+        the SOC has also created a ticket in &lt;platform&gt; with ID
+        &lt;ticket
+        id&gt; assigned solely to the security team. We have placed a
+        note on
+        the shift change / passdown documents to the next shift to
+        monitor
+        and continue remediation. </font>
+    </p>
+    <p><font face="Courier New, monospace">If you have any suggestions,
+        questions or require more information please let us know. At
+        this
+        stage, it is important that the following criteria be met and
+        followed:</font></p>
+    <p><font face="Courier New, monospace">If the user is a VP please
+        contact client services to assist. </font>
+    </p>
+    <p><font face="Courier New, monospace">Please contact desk side for
+        a
+        re-image, password and account assistance</font></p>
+    <p><font face="Courier New, monospace">Potentially contact legal,
+        brand impact and other supporting business related services to
+        limit
+        additional impact. </font>
+    </p>
+    <p><br>
+      <br>
+    </p>
+    <p><font face="Courier New, monospace">Thank you, </font>
+    </p>
+    <p><font face="Courier New, monospace">SOC...</font></p>
+    <p><br>
+    </p>
+  </body>
+</html>

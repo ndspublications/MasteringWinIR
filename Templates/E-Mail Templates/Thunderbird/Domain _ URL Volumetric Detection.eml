@@ -1,0 +1,58 @@
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Message-ID: <e73d5bf1-d537-407c-bb6a-14d7617ed295@company.com>
+Date: Tue, 14 Apr 2026 11:22:09 -0400
+MIME-Version: 1.0
+User-Agent: Mozilla Thunderbird
+Content-Language: en-US
+From: SOC <SOC@company.com>
+Subject: Domain / URL Volumetric Detection
+X-Enigmail-Draft-Status: N11222
+X-Mozilla-Draft-Info: internal/draft; vcard=0; receipt=0; DSN=0; uuencode=0;
+ attachmentreminder=0; deliveryformat=0
+X-Identity-Key: id22
+Fcc: mailbox://SOC%40company.com@mail.company.com/Sent
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <body>
+    <p><font face="Courier New, monospace">Hello,
+      </font>
+    </p>
+    <p><font face="Courier New, monospace">The SOC observed potentially
+      </font><font color="#000000"><font face="Courier New, monospace"><span
+            style="background: transparent">anomalous</span></font></font><font
+        face="Courier New, monospace">
+        traffic directed to _________ which was brought to our attention
+        from
+        ticket: ________. Upon initial investigation it was noted that
+        there
+        were undocumented changes to the server (as discussed in lack of
+        ticket justification within alert). </font>
+    </p>
+    <p><font face="Courier New, monospace">SOC is requesting a backup
+        system be brought online so that it can adequately investigate
+        the
+        affected server(s) without degrading services or access to our
+        customers. Can you please include team _______ that is
+        responsible
+        for server ______ so our investigation process can continue with
+        minimal down time. </font>
+    </p>
+    <p><br>
+      <br>
+    </p>
+    <p><font face="Courier New, monospace">Thank you, </font>
+    </p>
+    <p><font color="#000000"><font face="Courier New, monospace"><span
+            style="background: transparent">SOC…</span></font></font></p>
+    <p><br>
+    </p>
+  </body>
+</html>

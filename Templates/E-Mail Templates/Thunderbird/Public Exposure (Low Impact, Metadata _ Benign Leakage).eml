@@ -1,0 +1,64 @@
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+Message-ID: <95e58f1c-5bca-420b-a51e-170d1ea771b4@Company.com>
+Date: Tue, 14 Apr 2026 10:00:21 -0400
+MIME-Version: 1.0
+User-Agent: Mozilla Thunderbird
+Content-Language: en-US
+From: SOC <SOC@Company.com>
+Subject: Public Exposure (Low Impact, Metadata / Benign Leakage)
+X-Enigmail-Draft-Status: N11222
+X-Mozilla-Draft-Info: internal/draft; vcard=0; receipt=0; DSN=0; uuencode=0;
+ attachmentreminder=0; deliveryformat=0
+X-Identity-Key: id22
+Fcc: mailbox://SOC%40Company.com@mail.Company.com/Sent
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <body>
+    <p><font face="Courier New, monospace">Hello
+        &lt;manager&gt;, </font>
+    </p>
+    <p><font face="Courier New, monospace">It was discovered that on the
+        date of: &lt;date/time&gt; on the locations specified below: </font>
+    </p>
+    <p><font face="Courier New, monospace">&lt;location&gt;</font></p>
+    <p><font face="Courier New, monospace">&lt;location&gt;</font></p>
+    <p><font face="Courier New, monospace">The following information has
+        been identified which can cause minimal / benign information
+        leakage
+        to the business. It is advised by the security team that legal
+        be
+        notified in order to serve the owners or, owning companies of
+        the
+        following listed locations redaction or, cease and desist
+        notices
+        regarding the information contained on the sites. </font>
+    </p>
+    <p><font face="Courier New, monospace">The SOC team has discovered
+        the following data exposed on the site: </font>
+    </p>
+    <p><font face="Courier New, monospace">&lt;data type&gt;</font></p>
+    <p><font face="Courier New, monospace">&lt;data type&gt; </font>
+    </p>
+    <p><font face="Courier New, monospace">For simplicity, direct access
+        to the location has been linked below, we’ve included the
+        information as it’s low impact / benign to exemplify what we’ve
+        discovered. </font>
+    </p>
+    <p><br>
+      <br>
+    </p>
+    <p><font face="Courier New, monospace">Thank you, </font>
+    </p>
+    <p><font face="Courier New, monospace">SOC Team...</font></p>
+    <p><br>
+    </p>
+  </body>
+</html>

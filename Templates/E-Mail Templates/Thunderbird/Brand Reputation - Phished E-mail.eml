@@ -1,0 +1,161 @@
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+Message-ID: <684c68dd-2e8a-4f44-837b-e20e0bcd3994@Company.com>
+Date: Tue, 14 Apr 2026 11:02:03 -0400
+MIME-Version: 1.0
+User-Agent: Mozilla Thunderbird
+Content-Language: en-US
+From: SOC <SOC@Company.com>
+Subject: Brand Reputation - Phished E-mail
+X-Enigmail-Draft-Status: N11222
+X-Mozilla-Draft-Info: internal/draft; vcard=0; receipt=0; DSN=0; uuencode=0;
+ attachmentreminder=0; deliveryformat=0
+X-Identity-Key: id22
+Fcc: mailbox://SOC%40Company.com@mail.Company.com/Sent
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <body>
+    <p><font face="Courier New, monospace">Hello
+        &lt;manager&gt;,</font></p>
+    <p><font face="Courier New, monospace">The SOC has detected that
+        user
+        &lt;affected user&gt; is sending a high volume of potentially
+        unauthorized outbound e-mails as of &lt;timestamp&gt;. </font>
+    </p>
+    <p><font face="Courier New, monospace">This <font color="#000000"><span
+            style="background: transparent">behavior</span></font>
+        is inconsistent with their normal profile and has been verified
+        as
+        suspicious. </font>
+    </p>
+    <p><font face="Courier New, monospace">Indicators of compromise
+        <font color="#000000"><span style="background: transparent">include</span></font>:</font></p>
+    <ul>
+      <li>
+        <p><font face="Courier New, monospace">Sudden bulk-mail activity
+            outside baseline</font></p>
+      </li>
+      <li>
+        <p><font face="Courier New, monospace">possible malicious
+            mailbox rules</font></p>
+      </li>
+      <li>
+        <p><font face="Courier New, monospace">potential forwarding/<font
+              color="#000000"><span style="background: transparent">exfiltration</span></font>
+            behaviors </font> </p>
+      </li>
+      <li>
+        <p><font face="Courier New, monospace">Risk of domain/IP
+            reputation damage </font> </p>
+      </li>
+      <li>
+        <p><font face="Courier New, monospace">risk of regulatory
+            exposure depending on content sent. </font> </p>
+      </li>
+    </ul>
+    <p><font face="Courier New, monospace">Per IR procedures, the SOC
+        has
+        already:</font></p>
+    <ul>
+      <li>
+        <p><font face="Courier New, monospace">Suspended outbound mail
+            for the affected account</font></p>
+      </li>
+      <li>
+        <p><font face="Courier New, monospace">locked the account and
+            revoked all MFA sessions</font></p>
+      </li>
+      <li>
+        <p><font face="Courier New, monospace">Begun <font
+              color="#000000"><span style="background: transparent">review</span></font>
+            mailbox rules and login activity (past 180 days)</font></p>
+      </li>
+      <li>
+        <p><font face="Courier New, monospace">Flagged potential
+            brand/reputational impact</font></p>
+      </li>
+      <li>
+        <p><font face="Courier New, monospace"><font color="#000000"><span
+                style="background: transparent">P</span></font>reserved
+            logs for legal hold.</font></p>
+      </li>
+    </ul>
+    <p><font face="Courier New, monospace">At this time we are
+        requesting: </font>
+    </p>
+    <p><font face="Courier New, monospace"><b>Required Cross Team
+          Engagement:</b></font></p>
+    <ul>
+      <li>
+        <p><font face="Courier New, monospace"><b>HR</b><span
+              style="font-weight: normal"> – to coordinate review of
+              employee actions and initiate required internal processes.
+            </span></font> </p>
+      </li>
+      <li>
+        <p><font face="Courier New, monospace"><b>Legal</b><span
+              style="font-weight: normal"> – To evaluate regulatory
+              obligations, breach notifications, and potential external
+              contact.</span></font></p>
+      </li>
+      <li>
+        <p><font face="Courier New, monospace"><b>Brand</b><span
+              style="font-weight: normal"> </span><b>/ Crisis
+              Management</b><span style="font-weight: normal"> – To
+              address reputational impact and prepare external
+              communications if necessary</span></font></p>
+      </li>
+      <li>
+        <p><font face="Courier New, monospace"><b>Desk Side / IT Support</b><span
+              style="font-weight: normal"> – To reimage the affected
+              workstation and assist with credential resets. </span></font>
+        </p>
+      </li>
+      <li>
+        <p><font face="Courier New, monospace"><b>Client Services</b><span
+              style="font-weight: normal"> – If the affected user(s) are
+              C-Suite / VP level. </span></font> </p>
+      </li>
+    </ul>
+    <p><font face="Courier New, monospace"><span
+          style="font-weight: normal">Please
+          advise on next steps for HR </span><font color="#000000"><span
+            style="font-weight: normal"><span
+              style="background: transparent">←</span></span></font><span
+          style="font-weight: normal">
+        </span><font color="#000000"><span style="font-weight: normal"><span
+              style="background: transparent">→</span></span></font><span
+          style="font-weight: normal">
+          Legal coordination and if any additional business units should
+          be
+          engaged. </span></font>
+    </p>
+    <p style="font-weight: normal"><font face="Courier New, monospace">A
+        full IR ticket has been created in &lt;platform&gt; under ID
+        &lt;ticket
+        id&gt;, and shift-change notes have been updated for
+        follow-through. </font>
+    </p>
+    <p style="font-weight: normal"><font face="Courier New, monospace">If
+        required, SOC can create additional tickets to be shared with
+        HR,
+        Legal, Brand / Crisis Management, Desk Side / IT Support and or
+        client services to keep separation of duties and privileged
+        information to the security team if necessary. </font>
+    </p>
+    <p style="font-weight: normal"><font face="Courier New, monospace">Thank
+        you, </font>
+    </p>
+    <p style="font-weight: normal"><font face="Courier New, monospace">SOC
+        Team...</font></p>
+    <p><br>
+    </p>
+  </body>
+</html>

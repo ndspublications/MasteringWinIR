@@ -1,0 +1,94 @@
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+Message-ID: <49b93e32-a9a4-449c-bd4d-eefa55c01e5b@Company.com>
+Date: Tue, 14 Apr 2026 11:10:58 -0400
+MIME-Version: 1.0
+User-Agent: Mozilla Thunderbird
+Content-Language: en-US
+From: SOC <SOC@Company.com>
+Subject: Suspicious Application Execution Chain Detected
+X-Enigmail-Draft-Status: N11222
+X-Mozilla-Draft-Info: internal/draft; vcard=0; receipt=0; DSN=0; uuencode=0;
+ attachmentreminder=0; deliveryformat=0
+X-Identity-Key: id22
+Fcc: mailbox://SOC%40Company.com@mail.Company.com/Sent
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <body>
+    <p style="font-weight: normal">
+      <font color="#000000"><font face="Courier New, monospace"><span
+            style="background: transparent">Hello
+            &lt;managers name&gt;,</span></font></font></p>
+    <p style="font-weight: normal"><font color="#000000"><font
+          face="Courier New, monospace"><span
+            style="background: transparent">On
+            the date of ______ system ______ owned by ______ was
+            observed
+            performing suspicious executions within parent / child
+            application
+            processes. The suspicious activity was execution from the
+            mail client
+            to a word document, word document to a script interpreter
+            which in
+            many cases is a vector of initial access. </span></font></font>
+    </p>
+    <p style="font-weight: normal"><font color="#000000"><font
+          face="Courier New, monospace"><span
+            style="background: transparent">Upon
+            investigation it was established that this execution chain
+            did in
+            fact execute, the ticket: &lt;ticket number&gt; has a full
+            break down
+            of the investigation the SOC has executed. We are informing
+            management of the system and next steps due to several
+            factors: </span></font></font>
+    </p>
+    <ul>
+      <li>
+        <p style="font-weight: normal"><font color="#000000"><font
+              face="Courier New, monospace"><span
+                style="background: transparent">Re-image is required</span></font></font></p>
+      </li>
+      <li>
+        <p style="font-weight: normal"><font color="#000000"><font
+              face="Courier New, monospace"><span
+                style="background: transparent">Termination of all
+                active authenticated sessions has been conducted.</span></font></font></p>
+      </li>
+      <li>
+        <p style="font-weight: normal"><font color="#000000"><font
+              face="Courier New, monospace"><span
+                style="background: transparent">Review of MFA items
+                needs to be conducted by desk side. </span></font></font>
+        </p>
+      </li>
+    </ul>
+    <p style="font-weight: normal"><font color="#000000"><font
+          face="Courier New, monospace"><span
+            style="background: transparent">Should
+            there be any additional efforts or, requirements of the SOC
+            please
+            let us know. </span></font></font>
+    </p>
+    <p style="font-weight: normal"><br>
+      <br>
+    </p>
+    <p style="font-weight: normal"><font color="#000000"><font
+          face="Courier New, monospace"><span
+            style="background: transparent">Thank
+            you, </span></font></font>
+    </p>
+    <p style="font-weight: normal"><font color="#000000"><font
+          face="Courier New, monospace"><span
+            style="background: transparent">SOC</span></font></font></p>
+    <p><br>
+    </p>
+  </body>
+</html>

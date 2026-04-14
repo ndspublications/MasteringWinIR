@@ -1,0 +1,204 @@
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+Message-ID: <d4a5de28-5db4-4b7d-af1f-9127d70ec853@company.com>
+Date: Tue, 14 Apr 2026 11:05:36 -0400
+MIME-Version: 1.0
+User-Agent: Mozilla Thunderbird
+Content-Language: en-US
+From: SOC <SOC@company.com>
+Subject: Web Application - Investigation Follow Up
+X-Enigmail-Draft-Status: N11222
+X-Mozilla-Draft-Info: internal/draft; vcard=0; receipt=0; DSN=0; uuencode=0;
+ attachmentreminder=0; deliveryformat=0
+X-Identity-Key: id22
+Fcc: mailbox://SOC%40company.com@mail.company.com/Sent
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <body>
+    <p style="font-weight: normal; text-decoration: none">
+      <font face="Courier New, monospace">Hello &lt;direct manager, app
+        owner&gt;, </font>
+    </p>
+    <p style="font-weight: normal; text-decoration: none"><font
+        face="Courier New, monospace">The
+        SOC team was notified via ticket(s): XXX,XXX,XXX regarding a
+        potentially vulnerable web application that was being examined
+        by
+        threat actors. Upon closing the Xth ticket the SOC suggested
+        that the
+        next steps would be a vulnerability and manual scan of the web
+        application in question. </font>
+    </p>
+    <p style="font-weight: normal; text-decoration: none"><font
+        face="Courier New, monospace">Upon
+        investigation within the scan and testing Windows provided by
+        your
+        team the following has been determined: </font>
+    </p>
+    <ul>
+      <li>
+        <p style="font-weight: normal; text-decoration: none"><font
+            face="Courier New, monospace">The web application is
+            vulnerable to XSS/XST attacks. </font> </p>
+      </li>
+      <li>
+        <p style="font-weight: normal; text-decoration: none"><font
+            face="Courier New, monospace">Attack vectors include the
+            search field as well as the URI/URL of the affected page and
+            search functionality. </font> </p>
+      </li>
+      <li>
+        <p style="font-weight: normal; text-decoration: none"><font
+            face="Courier New, monospace">Analysts were effective in
+            executing multiple benign XSS/XST simulated attacks against
+            the web application and, 3 or 3 were successful. </font> </p>
+      </li>
+    </ul>
+    <p style="font-weight: normal; text-decoration: none"><font
+        face="Courier New, monospace">Determining
+        the scope of the application and it’s accessibility the SOC is
+        suggesting that the maintainers of the web application perform
+        the
+        following actions on the web site for security coding and coding
+        best
+        practices: </font>
+    </p>
+    <ul>
+      <li>
+        <p style="font-weight: normal; text-decoration: none"><font
+            face="Courier New, monospace">Field inputs need to be
+            sanitized on the server-side (in this case all IIS input
+            must be handled on the IIS side internally, not client
+            side).</font></p>
+      </li>
+      <li>
+        <p style="font-weight: normal; text-decoration: none"><font
+            face="Courier New, monospace">Any reusable code where this
+            web form was maintained, pushed, introduced and or
+            documented must also be considered for review to prevent
+            future activity.</font></p>
+      </li>
+      <li>
+        <p style="font-weight: normal; text-decoration: none"><font
+            face="Courier New, monospace">The application owners must
+            also conform to testing other input fields or, suggest dates
+            and times for the SOC to provide a minimally invasive red
+            team engagement to determine other parts of the overall web
+            application fall victim to similar attack patterns. </font>
+        </p>
+      </li>
+      <li>
+        <p style="font-weight: normal; text-decoration: none"><font
+            face="Courier New, monospace">The business should engage
+            with a third party penetration testing organization for
+            on-going evolution of the security of our web applications
+            and how we can better protect them. </font> </p>
+      </li>
+    </ul>
+    <p style="font-weight: normal; text-decoration: none"><font
+        face="Courier New, monospace">While
+        this is a common attack vector for threat actors, the
+        implications
+        for how we protect client data, and our image depends on strong
+        well
+        developed and defensive web applications that meet and exceed
+        industry standards of security with web applications. </font>
+    </p>
+    <p style="font-weight: normal; text-decoration: none"><font
+        face="Courier New, monospace">As
+        our early detections have played a vital role in discovering the
+        vulnerabilities that are within the provided web application it
+        is
+        imperative for the business to not only continually monitor but
+        also
+        take a proactive offensive role in aggressively finding
+        adversarial
+        tactics before a malicious threat actor can leverage such
+        attacks.
+        Based on current trends and research, the vulnerable web
+        application
+        may be responsible for the following attacks if not fixed in a
+        timely
+        fashion: </font>
+    </p>
+    <ul>
+      <li>
+        <p style="font-weight: normal; text-decoration: none"><font
+            face="Courier New, monospace">Hosting a reflected malicious
+            web application that can be sent out via URL and attacking
+            unsuspecting users through our trusted brand, image and
+            longstanding excellence. </font> </p>
+      </li>
+      <li>
+        <p style="font-weight: normal; text-decoration: none"><font
+            face="Courier New, monospace">Providing re-directs to
+            malicious web application that mimic our web site,
+            competitors in order to provide phishing, spread malware or
+            attack other systems. </font> </p>
+      </li>
+      <li>
+        <p style="font-weight: normal; text-decoration: none"><font
+            face="Courier New, monospace">Trick our own internal users
+            into believing a maliciously hosted reflected web
+            application “authentication form” is part of our business
+            whereby making our own staff fall victim to a simple and
+            preventable attack.</font></p>
+      </li>
+    </ul>
+    <p style="font-weight: normal; text-decoration: none"><font
+        face="Courier New, monospace">As
+        provided, the following are some best practices that can be
+        utilized
+        by the organization in order to limit or, detect offensive
+        attacks
+        rather quickly: </font>
+    </p>
+    <ul>
+      <li>
+        <p style="font-weight: normal; text-decoration: none"><font
+            face="Courier New, monospace">Introduction of a deviated WAF
+            if we already do not have one (F5, etc.)</font></p>
+      </li>
+      <li>
+        <p style="font-weight: normal; text-decoration: none"><font
+            face="Courier New, monospace">Introduction of security
+            mindset in the foundational levels of web application
+            development </font> </p>
+      </li>
+      <li>
+        <p style="font-weight: normal; text-decoration: none"><font
+            face="Courier New, monospace">Introduction and use of
+            filtration on server-side input; use of HTML stripping or,
+            escaping. </font> </p>
+      </li>
+      <li>
+        <p style="font-weight: normal; text-decoration: none"><font
+            face="Courier New, monospace">Active blocking if in the
+            event an attack threshold is met. </font> </p>
+      </li>
+    </ul>
+    <p style="font-weight: normal; text-decoration: none"><font
+        face="Courier New, monospace">The
+        SOC will gladly work with your team to assure all goals are met
+        and
+        that all future testing is validated, remediated and documented
+        to
+        help evolve our internal security. </font>
+    </p>
+    <p style="font-weight: normal; text-decoration: none"><font
+        face="Courier New, monospace">Thank
+        you, </font>
+    </p>
+    <p style="font-weight: normal; text-decoration: none"><font
+        face="Courier New, monospace">SOC…</font></p>
+    <p><br>
+    </p>
+  </body>
+</html>

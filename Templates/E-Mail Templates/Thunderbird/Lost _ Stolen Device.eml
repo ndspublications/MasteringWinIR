@@ -1,0 +1,68 @@
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+Message-ID: <54539a82-1964-4d2f-8e18-5af4570ee30a@company.com>
+Date: Tue, 14 Apr 2026 11:23:22 -0400
+MIME-Version: 1.0
+User-Agent: Mozilla Thunderbird
+Content-Language: en-US
+From: SOC <SOC@company.com>
+Subject: Lost / Stolen Device
+X-Enigmail-Draft-Status: N11222
+X-Mozilla-Draft-Info: internal/draft; vcard=0; receipt=0; DSN=0; uuencode=0;
+ attachmentreminder=0; deliveryformat=0
+X-Identity-Key: id22
+Fcc: mailbox://SOC%40company.com@mail.company.com/Sent
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <body>
+    <p><font face="Courier New, monospace">Hello
+        &lt;manager, security, deskside&gt;, </font>
+    </p>
+    <p><font face="Courier New, monospace">On the date of: &lt;date&gt;
+        a
+        device belonging to: &lt;username&gt; with user ID: &lt;user
+        id&gt;
+        was lost/stolen. The user attempted to locate the device for
+        24/48
+        hours and requesting replacement of the asset. </font>
+    </p>
+    <p><font face="Courier New, monospace">In accordance to our
+        policies,
+        please perform the following actions immediately: </font>
+    </p>
+    <ul>
+      <li>
+        <p><font face="Courier New, monospace">Mark the device within
+            the MDM as lost/stolen</font></p>
+      </li>
+      <li>
+        <p><font face="Courier New, monospace">Submit or complete a wipe
+            of the asset so no information can be leaked. </font> </p>
+      </li>
+    </ul>
+    <p><font face="Courier New, monospace">Once a police report is
+        received, please </font><font color="#000000"><font
+          face="Courier New, monospace"><span
+            style="background: transparent">begin</span></font></font><font
+        face="Courier New, monospace">
+        the process of new device procurement with the manager who has
+        been
+        CC’d on this communication. </font>
+    </p>
+    <p><br>
+      <br>
+    </p>
+    <p><font face="Courier New, monospace">Thank you, </font>
+    </p>
+    <p><font face="Courier New, monospace">SOC...</font></p>
+    <p><br>
+    </p>
+  </body>
+</html>

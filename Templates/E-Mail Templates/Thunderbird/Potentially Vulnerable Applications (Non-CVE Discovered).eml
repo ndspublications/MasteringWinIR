@@ -1,0 +1,121 @@
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+Message-ID: <b44b5173-2efc-4703-a956-e0f62b18ca98@Company.com>
+Date: Tue, 14 Apr 2026 11:15:17 -0400
+MIME-Version: 1.0
+User-Agent: Mozilla Thunderbird
+Content-Language: en-US
+From: SOC <SOC@Company.com>
+Subject: Potentially Vulnerable Applications (Non-CVE Discovered)
+X-Enigmail-Draft-Status: N11222
+X-Mozilla-Draft-Info: internal/draft; vcard=0; receipt=0; DSN=0; uuencode=0;
+ attachmentreminder=0; deliveryformat=0
+X-Identity-Key: id22
+Fcc: mailbox://SOC%40Company.com@mail.Company.com/Sent
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <body>
+    <p><font face="Courier new, monospace">Hello
+        &lt;manager&gt;, </font>
+    </p>
+    <p><br>
+      <br>
+    </p>
+    <p><font face="Courier new, monospace">On the date of:
+        ______________
+        at: ______________ system: _________________ with IP address:
+        ___________________ owned by: _____________________ seemed to be
+        having issues with the following events: </font>
+    </p>
+    <p><br>
+      <br>
+    </p>
+    <p><font face="Courier new, monospace">&lt;event logs here&gt;</font></p>
+    <p><br>
+      <br>
+    </p>
+    <p><font face="Courier new, monospace">Upon initial investigation it
+        seems that the application/service that is affected is:
+        _________________________. Upon further investigation it has
+        been
+        noted that the application version is: ___________________. The
+        SOC
+        has noticed that the event has taken place a total of:
+        ____________
+        Times.</font></p>
+    <p><br>
+      <br>
+    </p>
+    <p><font face="Courier new, monospace">Additional investigations
+        have
+        lead to: __________________ other systems with similar activity
+        (can
+        be removed if not noticed)</font></p>
+    <p><br>
+      <br>
+    </p>
+    <p><font face="Courier new, monospace">Extending our investigation
+        we
+        have also attempted to rule out any CVE scores for the above
+        mentioned application/service and version number to no avail.
+        Additional investigatory actions that have been taken: </font>
+    </p>
+    <p><br>
+      <br>
+    </p>
+    <p><font face="Courier new, monospace">Communications no
+        non-standard
+        / approved ports: </font>
+    </p>
+    <p><font face="Courier new, monospace">IP Communications in the last
+        48 hours / inline with activities noticed: </font>
+    </p>
+    <p><br>
+      <br>
+    </p>
+    <p><font face="Courier new, monospace">We have / have not found high
+        ranking IP addresses with open call-back ports tied to: </font>
+    </p>
+    <p><font face="Courier new, monospace">.....</font></p>
+    <p><font face="Courier new, monospace">(this can be removed if
+        nothing was found) </font>
+    </p>
+    <p><br>
+      <br>
+    </p>
+    <p><font face="Courier new, monospace">Our remediation strategies
+        are
+        to perform the following actions: </font>
+    </p>
+    <p><font face="Courier new, monospace">1) If the service is no
+        longer
+        required shut down the service. </font>
+    </p>
+    <p><font face="Courier new, monospace">2) If the service has not
+        been
+        scanned with recent vulnerability scanners -- a scan should be
+        conducted. </font>
+    </p>
+    <p><font face="Courier new, monospace">3) Coordinate with the
+        business / application owner to determine if the service has a
+        legitimate business requirement and if not, can we turn it off?</font></p>
+    <p><br>
+      <br>
+    </p>
+    <p><font face="Courier new, monospace">Thank you, </font>
+    </p>
+    <p><br>
+      <br>
+    </p>
+    <p><font face="Courier new, monospace">SOC...</font></p>
+    <p><br>
+    </p>
+  </body>
+</html>

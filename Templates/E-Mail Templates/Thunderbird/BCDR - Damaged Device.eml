@@ -1,0 +1,72 @@
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+Message-ID: <4550bc0f-4db4-4042-b63c-2dd0608b0fe1@Company.com>
+Date: Tue, 14 Apr 2026 11:24:20 -0400
+MIME-Version: 1.0
+User-Agent: Mozilla Thunderbird
+Content-Language: en-US
+From: Soc <Soc@Company.com>
+Subject: BCDR - Damaged Device
+X-Enigmail-Draft-Status: N11222
+X-Mozilla-Draft-Info: internal/draft; vcard=0; receipt=0; DSN=0; uuencode=0;
+ attachmentreminder=0; deliveryformat=0
+X-Identity-Key: id22
+Fcc: mailbox://soc%40Company.com@mail.company.com/Sent
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <body>
+    <p><font face="Courier New, monospace">Hello
+        &lt;manager, desk side&gt;, </font>
+    </p>
+    <p><font face="Courier New, monospace">On the date of: &lt;date&gt;
+        the user: &lt;username&gt;, user e-mail &lt;email&gt; notified
+        the
+        security division that a device has been damaged in a BCDR
+        event. In
+        accordance with our policies, guides and security protocols the
+        security department is advising the following: </font>
+    </p>
+    <ul>
+      <li>
+        <p><font face="Courier New, monospace">The device be locked in
+            any MDM systems</font></p>
+      </li>
+      <li>
+        <p><font face="Courier New, monospace">If possible the device be
+            wiped</font></p>
+      </li>
+      <li>
+        <p><font face="Courier New, monospace">The original device be
+            returned. </font> </p>
+      </li>
+    </ul>
+    <p><font face="Courier New, monospace">If the device is to be
+        returned, the user has 30 days to return the affected / damaged
+        device or they will be billed for the replacement. Once this is
+        completed, security / desk side will update the users assets and
+        list
+        the previous device damaged under BCDR event. </font>
+    </p>
+    <p><br>
+      <br>
+    </p>
+    <p><font face="Courier New, monospace">Thank you, </font>
+    </p>
+    <p><br>
+      <br>
+    </p>
+    <p><font face="Courier New, monospace">SOC...</font></p>
+    <p><br>
+      <br>
+    </p>
+    <p><br>
+    </p>
+  </body>
+</html>

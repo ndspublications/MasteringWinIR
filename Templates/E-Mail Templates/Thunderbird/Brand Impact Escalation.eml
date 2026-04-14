@@ -1,0 +1,64 @@
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+Message-ID: <f59d90b2-24b4-4a24-92de-28be850a5c00@Company.com>
+Date: Tue, 14 Apr 2026 10:01:44 -0400
+MIME-Version: 1.0
+User-Agent: Mozilla Thunderbird
+Content-Language: en-US
+From: SOC <SOC@Company.com>
+Subject: Brand Impact Escalation
+X-Enigmail-Draft-Status: N11222
+X-Mozilla-Draft-Info: internal/draft; vcard=0; receipt=0; DSN=0; uuencode=0;
+ attachmentreminder=0; deliveryformat=0
+X-Identity-Key: id22
+Fcc: mailbox://SOC%40Company.com@mail.Company.com/Sent
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <body>
+    <p><font face="Courier New, monospace">Hello
+        &lt;Executive / Legal / PR&gt;,<br>
+        <br>
+        On &lt;date/time&gt;,
+        monitoring activities identified publicly accessible content
+        referencing &lt;organization name&gt; that may present
+        reputational
+        risk.<br>
+        <br>
+        The exposure includes:<br>
+        <br>
+        &lt;brief factual
+        description&gt;<br>
+        <br>
+        While no confirmed security compromise is
+        evident at this time, the visibility of the content may result
+        in:<br>
+        <br>
+        •
+        Customer perception risk<br>
+        • Media attention<br>
+        • Regulatory
+        inquiry<br>
+        <br>
+        Recommended coordination:<br>
+        • Legal review<br>
+        •
+        Communications / PR alignment<br>
+        • Risk acceptance or remediation
+        decision<br>
+        <br>
+        Security will continue monitoring and provide
+        updates as warranted.<br>
+        <br>
+        Respectfully,<br>
+        SOC Team</font></p>
+    <p><br>
+    </p>
+  </body>
+</html>

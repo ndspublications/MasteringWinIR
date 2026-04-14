@@ -1,0 +1,106 @@
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Message-ID: <bc11e539-b787-4f58-b9a8-d4ee709bc244@company.com>
+Date: Tue, 14 Apr 2026 11:07:35 -0400
+MIME-Version: 1.0
+User-Agent: Mozilla Thunderbird
+Content-Language: en-US
+From: SOC <SOC@company.com>
+Subject: Web Application - Potential Local File Inclusion Discovered
+X-Enigmail-Draft-Status: N11222
+X-Mozilla-Draft-Info: internal/draft; vcard=0; receipt=0; DSN=0; uuencode=0;
+ attachmentreminder=0; deliveryformat=0
+X-Identity-Key: id22
+Fcc: mailbox://SOC%40company.com@mail.company.com/Sent
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <body>
+    <p align="left">
+      <font face="Courier New, monospace">Hello &lt;manager&gt;, </font>
+    </p>
+    <p align="left"><font face="Courier New, monospace">It has come to
+        the attention of the SOC that on the date of: XXX and time XXX
+        the
+        web application default.aspx on server: <a href="https://xxx/"
+          class="moz-txt-link-freetext">https://xxx</a>
+        belonging to the &lt;team&gt; was experiencing directory
+        traversal
+        and, LFI (Local File Inclusion) like activity. </font>
+    </p>
+    <p align="left"><font face="Courier New, monospace">The traffic
+        originated from one IP address noted here: &lt;ip address&gt;
+        and hit
+        the server 219 times. The first event was logged at: &lt;first
+        seen&gt;
+        and the last event was logged at &lt;last seen&gt;. The scan
+        lasted
+        for a total of 45 seconds. </font>
+    </p>
+    <p align="left"><font face="Courier New, monospace">It is suggested
+        that the SOC review the files located in that web directory and
+        perform any or all of the following with permission of the
+        application owner: </font>
+    </p>
+    <ul>
+      <li>
+        <p align="left"><font face="Courier New, monospace">LFI / RFI
+            testing on POST and body requests. </font> </p>
+      </li>
+      <li>
+        <p align="left"><font face="Courier New, monospace">LFI / RFI
+            testing on URL/URI requests</font></p>
+      </li>
+    </ul>
+    <p align="left"><font face="Courier New, monospace">This will assure
+        that the information being seen is either noise or, the
+        beginning
+        stages of something that may impact the security and data the
+        SOC is
+        attempting to protect. </font>
+    </p>
+    <p align="left"><font face="Courier New, monospace">If testing is
+        outside the scope of the SOC it is advised that the
+        vulnerability
+        management team be looped into the matter to scan and determine
+        if
+        the traffic seen is in fact benign or something the application
+        owner(s) need to submit a fix for. </font>
+    </p>
+    <p align="left"><font face="Courier New, monospace">In addition to
+        which, it is noted that during the scans and threat hunt
+        searches,
+        the SOC did not notice any file access logs for the server in
+        question nor the web application. It is suggested that the
+        application and server owner turn on object-access fail /
+        success for
+        the web server to determine if there are any attempts to break
+        out of
+        the webroot and scan for files system wide. </font>
+    </p>
+    <p align="left"><font face="Courier New, monospace">Sample logs and
+        threat hunts along with photos have been attacked to the e-mail
+        along
+        with the IP address information, threat metrics and country
+        information. Should you have any further questions please do let
+        us
+        know. </font>
+    </p>
+    <p align="left"><br>
+      <br>
+    </p>
+    <p align="left"><font face="Courier New, monospace">Thank you, </font>
+    </p>
+    <p align="left"><font color="#000000"><font
+          face="Courier New, monospace"><span
+            style="background: transparent">SOC…</span></font></font></p>
+    <p><br>
+    </p>
+  </body>
+</html>

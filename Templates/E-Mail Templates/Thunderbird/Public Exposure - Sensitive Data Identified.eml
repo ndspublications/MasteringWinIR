@@ -1,0 +1,65 @@
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+Message-ID: <7184d788-2e00-4c01-b8b6-d7057198e7b3@Company.com>
+Date: Tue, 14 Apr 2026 10:01:01 -0400
+MIME-Version: 1.0
+User-Agent: Mozilla Thunderbird
+Content-Language: en-US
+From: SOC <SOC@Company.com>
+Subject: Public Exposure - Sensitive Data Identified
+X-Enigmail-Draft-Status: N11222
+X-Mozilla-Draft-Info: internal/draft; vcard=0; receipt=0; DSN=0; uuencode=0;
+ attachmentreminder=0; deliveryformat=0
+X-Identity-Key: id22
+Fcc: mailbox://SOC%40Company.com@mail.Company.com/Sent
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <body>
+    <p><font face="Courier New, monospace">Hello
+        &lt;manager, legal, compliance&gt;</font></p>
+    <p><font face="Courier New, monospace">On the date of: &lt;date&gt;
+        it was discovered during an investigation that the follow links
+        /
+        domains are serving up sensitive data to the public:</font></p>
+    <p><font face="Courier New, monospace">&lt;location&gt;</font></p>
+    <p><font face="Courier New, monospace">&lt;location&gt;</font></p>
+    <p><font face="Courier New, monospace">Due to the sensitivity of the
+        information being shared, and to align with regulatory, legal
+        and
+        compliance for data protections the SOC has not provided
+        photographic
+        evidence, or copied any of the data to this communication.
+        Please
+        note that the listing below exemplifies some of the information
+        that
+        was discovered, further investigations were not continued due to
+        the
+        sensitivity and the possibility of mishandling data outside of
+        regulatory frameworks: </font>
+    </p>
+    <p><font face="Courier New, monospace">&lt;data type&gt;</font></p>
+    <p><font face="Courier New, monospace">&lt;data type&gt;</font></p>
+    <p><font face="Courier New, monospace">It is suggested that HR,
+        legal
+        and compliance perform actions to reduce, limit or have the
+        information removed legally and, those respective teams address
+        the
+        leaks / sharing of data with potential parties within the
+        organization which may have shared the information or, next
+        steps at
+        containment. </font>
+    </p>
+    <p><font face="Courier New, monospace">Thank you, </font>
+    </p>
+    <p><font face="Courier New, monospace">SOC Team...</font></p>
+    <p><br>
+    </p>
+  </body>
+</html>

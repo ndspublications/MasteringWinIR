@@ -1,0 +1,99 @@
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Message-ID: <a48163b5-d0d7-489a-a83f-018a7c843edf@Company.com>
+Date: Tue, 14 Apr 2026 11:22:54 -0400
+MIME-Version: 1.0
+User-Agent: Mozilla Thunderbird
+Content-Language: en-US
+From: SOC <SOC@Company.com>
+Subject: Alternate Streams Potentially Detected in PCAP
+X-Enigmail-Draft-Status: N11222
+X-Mozilla-Draft-Info: internal/draft; vcard=0; receipt=0; DSN=0; uuencode=0;
+ attachmentreminder=0; deliveryformat=0
+X-Identity-Key: id22
+Fcc: mailbox://sales%40Company.com@mail.Company.com/Sent
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <body>
+    <p style="font-weight: normal">
+      <font face="Courier New, monospace">Hello &lt;manager name&gt;, </font>
+    </p>
+    <p style="font-weight: normal"><font face="Courier New, monospace">The
+        SOC is looping you in with regards to ticket: &lt;ticket
+        number&gt;
+        which was investigated on the date of: &lt;date&gt;. </font>
+    </p>
+    <p style="font-weight: normal"><font face="Courier New, monospace">The
+        SOC has added information within the ticket detailing behavior
+        that
+        has not been seen consistently throughout the network and may
+        require
+        additional analysis, escalation or resources to understand. </font>
+    </p>
+    <p style="font-weight: normal"><font face="Courier New, monospace">Currently
+        the system referenced in the ticket is consistently sending ICMP
+        traffic to an IP address within the ticket that is not owned,
+        operated or part of &lt;organization&gt;. The traffic noted is
+        60%
+        higher than all other systems in the last 90 – 100 day period
+        and
+        is 150x more prevalent since &lt;first seen date&gt; which was
+        &lt;number of days ago&gt;</font></p>
+    <p style="font-weight: normal"><font face="Courier New, monospace">SOC
+        team is currently requesting the following for management
+        approval: </font>
+    </p>
+    <ul>
+      <li>
+        <p style="font-weight: normal"><font
+            face="Courier New, monospace">Wireshark capture from the
+            network level where &lt;system&gt; is located. </font> </p>
+      </li>
+      <li>
+        <p style="font-weight: normal"><font
+            face="Courier New, monospace">Wireshark capture from
+            &lt;endpont name&gt; system that has been affected. </font>
+        </p>
+      </li>
+    </ul>
+    <p style="font-weight: normal"><font face="Courier New, monospace">We’d
+        like to understand what, or why these packets are communicating
+        to
+        make a stronger determination into the root cause of these
+        packets
+        being sent/received. </font>
+    </p>
+    <p style="font-weight: normal"><font face="Courier New, monospace">At
+        this time, additional investigations have been halted as to not
+        impact the integrity of the potential of network artifact
+        collection
+        (direct access may stop the current communication and we are
+        trying
+        to avoid this). Once we have approval to do so, we are
+        requesting an
+        additional two days of analysis for the packet captures but will
+        continue additional investigatory actions once we have obtained
+        the
+        captures. </font>
+    </p>
+    <p style="font-weight: normal"><br>
+      <br>
+    </p>
+    <p style="font-weight: normal"><font face="Courier New, monospace">Thank
+        you, </font>
+    </p>
+    <p><font face="Courier New, monospace"><font color="#000000"><span
+            style="font-weight: normal"><span
+              style="background: transparent">SOC…</span></span></font><span
+          style="font-weight: normal">.</span></font></p>
+    <p><br>
+    </p>
+  </body>
+</html>

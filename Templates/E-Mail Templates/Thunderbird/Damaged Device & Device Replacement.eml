@@ -1,0 +1,78 @@
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+Message-ID: <639533f5-2a6a-4571-901a-eb6486f56b1e@Company.com>
+Date: Tue, 14 Apr 2026 11:23:51 -0400
+MIME-Version: 1.0
+User-Agent: Mozilla Thunderbird
+Content-Language: en-US
+From: SOC <SOC@Company.com>
+Subject: Damaged Device & Device Replacement
+X-Enigmail-Draft-Status: N11222
+X-Mozilla-Draft-Info: internal/draft; vcard=0; receipt=0; DSN=0; uuencode=0;
+ attachmentreminder=0; deliveryformat=0
+X-Identity-Key: id22
+Fcc: mailbox://SOC%40Company.com@mail.Company.com/Sent
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <body>
+    <p><font face="Courier New, monospace">Hello
+        &lt;manager, deskside&gt;, </font>
+    </p>
+    <p><font face="Courier New, monospace">It has been reported to
+        security that the user mentioned in this e-mail has had a device
+        damaged, and would like to procure a new device. Security is
+        requesting the following: </font>
+    </p>
+    <ul>
+      <li>
+        <p><font face="Courier New, monospace">The device be returned in
+            a pre-paid label / shipping box</font></p>
+      </li>
+      <li>
+        <p><font color="#000000"><font face="Courier New, monospace"><span
+                style="background: transparent">I</span></font></font><font
+            face="Courier New, monospace">f possible the information on
+            the device be recovered</font></p>
+      </li>
+    </ul>
+    <p><font face="Courier New, monospace">In accordance to our
+        policies,
+        the user must ship the device back within the next 30 days. If
+        this
+        impacts the users work duties an expedited device must be
+        shipped
+        with photographic or video evidence the original device is
+        non-functional. </font>
+    </p>
+    <p><font face="Courier New, monospace">If the device is not returned
+        within the 30-day period, the user will be liable for any or all
+        costs associated with the new device. </font>
+    </p>
+    <p><br>
+      <br>
+    </p>
+    <p><font face="Courier New, monospace"><b>User:</b> &lt;username&gt;</font></p>
+    <p><font face="Courier New, monospace"><b>User E-mail:</b>
+        &lt;email&gt;</font></p>
+    <p><font face="Courier New, monospace"><b>Current Device:</b>
+        &lt;device
+        type&gt; <b>Serial Number:</b> &lt;serial&gt;</font></p>
+    <p><font face="Courier New, monospace"><b>Replacement:</b>
+        &lt;replacement&gt;</font></p>
+    <p><br>
+      <br>
+    </p>
+    <p><font face="Courier New, monospace">Thank you, </font>
+    </p>
+    <p><font face="Courier New, monospace">SOC...</font></p>
+    <p><br>
+    </p>
+  </body>
+</html>

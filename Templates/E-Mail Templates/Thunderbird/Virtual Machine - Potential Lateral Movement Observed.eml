@@ -1,0 +1,101 @@
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+Message-ID: <c412eed7-3991-4ff5-baf8-d2b8d9571c90@company.com>
+Date: Tue, 14 Apr 2026 11:18:19 -0400
+MIME-Version: 1.0
+User-Agent: Mozilla Thunderbird
+Content-Language: en-US
+From: SOC <SOC@company.com>
+Subject: Virtual Machine - Potential Lateral Movement Observed
+X-Enigmail-Draft-Status: N11222
+X-Mozilla-Draft-Info: internal/draft; vcard=0; receipt=0; DSN=0; uuencode=0;
+ attachmentreminder=0; deliveryformat=0
+X-Identity-Key: id22
+Fcc: mailbox://SOC%40company.com@mail.company.com/Sent
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <body>
+    <p style="font-weight: normal; text-decoration: none">
+      <font face="Courier New, monospace"><font size="3"
+          style="font-size: 12pt">Hello
+          &lt;manager name&gt;</font></font></p>
+    <p style="font-weight: normal; text-decoration: none"><font
+        face="Courier New, monospace"><font size="3"
+          style="font-size: 12pt">It
+          has been discovered by the SOC that virtual machine:
+          ________________
+          with UID _________________ and IP ___________________ is being
+          investigated for suspicious activity. You can review the full
+          ticket
+          here: &lt;ticket number&gt;. The soc has performed the
+          following
+          actions (that are attached to the original ticket):</font></font></p>
+    <ul>
+      <li>
+        <p style="font-weight: normal; text-decoration: none"><font
+            face="Courier New, monospace"><font size="3"
+              style="font-size: 12pt">Correlation with ticketing system
+              to determine if the VM is in fact legitimate or if the
+              business is aware of the virtual machine.</font></font></p>
+      </li>
+      <li>
+        <p style="text-decoration: none"><font
+            face="Courier New, monospace"><font size="3"
+              style="font-size: 12pt"><span style="font-weight: normal">SIEM
+                searches in both the network, and host to determine
+                where the VM has attempted to </span><font
+                color="#000000"><span style="font-weight: normal"><span
+                    style="background: transparent">communicate</span></span></font><span
+                style="font-weight: normal"> with other machines, and
+                when the VM was started/shutdown. </span></font></font>
+        </p>
+      </li>
+      <li>
+        <p style="font-weight: normal; text-decoration: none"><font
+            face="Courier New, monospace"><font size="3"
+              style="font-size: 12pt">SIEM searches also indicate
+              original creation date (when traffic was last observed X
+              days ago).</font></font></p>
+      </li>
+    </ul>
+    <p style="font-weight: normal; text-decoration: none"><font
+        face="Courier New, monospace"><font size="3"
+          style="font-size: 12pt">The
+          system that is hosting the virtual appliance is:
+          _____________. </font></font>
+    </p>
+    <p style="font-weight: normal; text-decoration: none"><font
+        face="Courier New, monospace"><font size="3"
+          style="font-size: 12pt">We
+          are requesting that the owning team validate the existence of
+          the
+          virtual machine and, it’s documented purpose. </font></font>
+    </p>
+    <p style="font-weight: normal; text-decoration: none"><font
+        face="Courier New, monospace"><font size="3"
+          style="font-size: 12pt">Please
+          let us know of additional steps. </font></font>
+    </p>
+    <p style="font-weight: normal; text-decoration: none"><font
+        face="Courier New, monospace"><font size="3"
+          style="font-size: 12pt">Thank
+          you, </font></font>
+    </p>
+    <p style="font-weight: normal; text-decoration: none"><font
+        color="#000000"><font face="Courier New, monospace"><font
+            size="3" style="font-size: 12pt"><span
+              style="background: transparent">SOC…</span></font></font></font></p>
+    <p style="font-weight: normal; text-decoration: none"><br>
+      <br>
+    </p>
+    <p><br>
+    </p>
+  </body>
+</html>

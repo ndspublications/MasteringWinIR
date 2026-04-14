@@ -1,0 +1,96 @@
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+Message-ID: <25e7e418-4af2-4900-9d2a-17cdd317964b@Company.com>
+Date: Tue, 14 Apr 2026 11:25:16 -0400
+MIME-Version: 1.0
+User-Agent: Mozilla Thunderbird
+Content-Language: en-US
+From: Soc <Soc@Company.com>
+Subject: Potential Shadow IT Discovery
+X-Enigmail-Draft-Status: N11222
+X-Mozilla-Draft-Info: internal/draft; vcard=0; receipt=0; DSN=0; uuencode=0;
+ attachmentreminder=0; deliveryformat=0
+X-Identity-Key: id22
+Fcc: mailbox://soc%40Company.com@mail.company.com/Sent
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <body>
+    <p style="font-weight: normal">
+      <font face="Courier New, monospace">Hello &lt;managers name&gt;, </font>
+    </p>
+    <p style="font-weight: normal"><font face="Courier New, monospace">Today
+        it was discovered there is a potential Shadow IT asset within
+        ticket:
+        &lt;ticket number&gt;. </font>
+    </p>
+    <p><font face="Courier New, monospace"><span
+          style="font-weight: normal">The
+          initial investigations into the matter have been conducted and
+          completed </span><font color="#000000"><span
+            style="font-weight: normal"><span
+              style="background: transparent">–</span></span></font><span
+          style="font-weight: normal">
+          the SOC team cannot adequately identify an owner, business
+          unit with
+          confidence. </span></font>
+    </p>
+    <p style="font-weight: normal"><br>
+      <br>
+    </p>
+    <p style="font-weight: normal"><font face="Courier New, monospace">At
+        this time we are requesting escalation to the business to assist
+        with
+        one or more of the following actions:</font></p>
+    <ul>
+      <li>
+        <p style="font-weight: normal"><font
+            face="Courier New, monospace">Potential owner of the asset.</font></p>
+      </li>
+      <li>
+        <p style="font-weight: normal"><font
+            face="Courier New, monospace">Potentially have security
+            controls installed on the device / asset.</font></p>
+      </li>
+      <li>
+        <p style="font-weight: normal"><font
+            face="Courier New, monospace">Assign potential risk to the
+            owning party, shareholder, stakeholder or business unit.</font></p>
+      </li>
+      <li>
+        <p style="font-weight: normal"><font
+            face="Courier New, monospace">Have the device disconnected
+            from the network within the allowable 30 day window. </font>
+        </p>
+      </li>
+      <li>
+        <p style="font-weight: normal"><font
+            face="Courier New, monospace">Remove the device after the
+            window has been exceeded. </font> </p>
+      </li>
+    </ul>
+    <p style="font-weight: normal"><font face="Courier New, monospace">Please
+        advise on the next steps or provide direction on how you would
+        like
+        for the SOC to proceed.</font></p>
+    <p style="font-weight: normal"><br>
+      <br>
+    </p>
+    <p style="font-weight: normal"><font face="Courier New, monospace">Thank
+        you, </font>
+    </p>
+    <p style="font-weight: normal"><font face="Courier New, monospace">SOC
+        Team.</font></p>
+    <p style="font-weight: normal"><br>
+      <br>
+    </p>
+    <p><br>
+    </p>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+Message-ID: <65f54ff7-711f-4be4-a86d-8fa3fd3883f6@Company.com>
+Date: Tue, 14 Apr 2026 11:26:05 -0400
+MIME-Version: 1.0
+User-Agent: Mozilla Thunderbird
+Content-Language: en-US
+From: Soc <Soc@Company.com>
+Subject: Business Owner Risk Acceptance Item
+X-Enigmail-Draft-Status: N11222
+X-Mozilla-Draft-Info: internal/draft; vcard=0; receipt=0; DSN=0; uuencode=0;
+ attachmentreminder=0; deliveryformat=0
+X-Identity-Key: id22
+Fcc: mailbox://soc%40Company.com@mail.company.com/Sent
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <body>
+    <p><font face="Courier New, monospace">Hello
+        &lt;business owner&gt;, </font>
+    </p>
+    <p><font face="Courier New, monospace">Upon investigating an event
+        the SOC had discovered the following items that need risk
+        clarification from you and a potential risk acceptance regarding
+        the
+        discovered items herein: </font>
+    </p>
+    <p><br>
+      <br>
+    </p>
+    <p><font color="#000000"><font face="Courier New, monospace"><span
+            style="background: transparent">Items…</span></font></font></p>
+    <p><br>
+      <br>
+    </p>
+    <p><font face="Courier New, monospace">The risk was identified on:
+        &lt;date&gt; and has the potential to impact the business in the
+        following ways: </font>
+    </p>
+    <p><br>
+      <br>
+    </p>
+    <p><font color="#000000"><span style="background: transparent">…</span></font><font
+        face="Courier New, monospace">.</font></p>
+    <p><br>
+      <br>
+    </p>
+    <p><font face="Courier New, monospace">Please let us know when a
+        meeting would work with your schedule to remediate the matter as
+        soon
+        as possible. </font>
+    </p>
+    <p><br>
+      <br>
+    </p>
+    <p><font face="Courier New, monospace">Thank you, </font>
+    </p>
+    <p><br>
+      <br>
+    </p>
+    <p><font face="Courier New, monospace">SOC.</font></p>
+    <p><br>
+    </p>
+  </body>
+</html>

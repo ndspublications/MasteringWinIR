@@ -1,0 +1,213 @@
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Message-ID: <6bd15a38-ffe3-43e2-9f54-23ed6fa769d4@company.com>
+Date: Tue, 14 Apr 2026 11:04:05 -0400
+MIME-Version: 1.0
+User-Agent: Mozilla Thunderbird
+Content-Language: en-US
+From: SOC <SOC@company.com>
+Subject: Web Application - User Account Brute Force
+X-Enigmail-Draft-Status: N11222
+X-Mozilla-Draft-Info: internal/draft; vcard=0; receipt=0; DSN=0; uuencode=0;
+ attachmentreminder=0; deliveryformat=0
+X-Identity-Key: id22
+Fcc: mailbox://SOC%40company.com@mail.company.com/Sent
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <body>
+    <p><font face="Courier New, monospace"><span
+          style="text-decoration: none"><span
+            style="font-weight: normal">Hello
+            &lt;manager / skip if ticket&gt;, <br>
+            <br>
+            On &lt;date&gt; at
+            &lt;local time&gt; the SOC was notified that the account(s)
+            of:
+            &lt;account, account&gt; were part of a notification /
+            ticket:
+            &lt;ticket number, ticket number&gt; whereby the mentioned
+            accounts
+            were being targeted either for brute force attacks or, the
+            accounts
+            were being supplied to the web portal(s) located at: </span></span></font><b><a
+          href="https://xxx/" class="moz-txt-link-freetext">https://xxx</a></b><font
+        face="Courier New, monospace"><span
+          style="text-decoration: none"><span
+            style="font-weight: normal">,
+          </span></span></font><b><a href="https://xxx/"
+          class="moz-txt-link-freetext">https://xxx</a></b><font
+        face="Courier New, monospace"><span
+          style="text-decoration: none"><span
+            style="font-weight: normal">.
+            Upon initial investigation we obtained the following details
+            about
+            the source of the alert: </span></span></font>
+    </p>
+    <p style="font-weight: normal; text-decoration: none"><font
+        face="Courier New, monospace">IP
+        Address: XXXX<br>
+        Country: XXX<br>
+        ASN: XXX</font></p>
+    <p style="font-weight: normal; text-decoration: none"><font
+        face="Courier New, monospace">The
+        IP Address also has been check through various intelligence
+        sources
+        to determine it’s overall risk. Please see the following as part
+        of
+        the risk assessment and risks posed by the obtained address(es):
+      </font>
+    </p>
+    <p><font face="Courier New, monospace"><span
+          style="text-decoration: none"><span
+            style="font-weight: normal">IP
+            Address xxx[.]xxx[.]xxx[.]xxx: </span></span></font><b><a
+          href="https://virustotal.com/" class="moz-txt-link-freetext">https://virustotal.com/</a></b><font
+        face="Courier New, monospace"><span
+          style="text-decoration: none"><span
+            style="font-weight: normal">…
+            Score: 19/100</span></span></font></p>
+    <p style="font-weight: normal; text-decoration: none"><font
+        face="Courier New, monospace">IP
+        Address xxx[.]xxx[.]xxx[.]xxx: Ipvoid… 10/10</font></p>
+    <p style="font-weight: normal; text-decoration: none"><font
+        face="Courier New, monospace">IP
+        Address xxx[.]xxx[.]xxx[.]xxx: IBM X-Force 100/100</font></p>
+    <p style="font-weight: normal; text-decoration: none"><font
+        face="Courier New, monospace">Our
+        SIEM investigation has curated a total of: 96 tries based upon
+        the IP
+        address with the user names specified above. Our output was as
+        follows: </font>
+    </p>
+    <p style="font-weight: normal; text-decoration: none"><font
+        face="Courier New, monospace">index="waf"
+        earliest=-2h srcip="xxx.xxx.xxx" userid IN
+        ("user1","user2","user3","user4")<br>
+        |
+        stats count min(_time) as firstSeen max(_time) as lastSeen by
+        userid
+        srcip<br>
+        | table userid count firstSeen lastSeen srcip<br>
+      </font><br>
+      <br>
+    </p>
+    <p style="font-weight: normal; text-decoration: none"><font
+        face="Courier New, monospace">The
+        SOC has also attached sample CSV outputs from the SIEM as
+        additional
+        proof and photos of the risks posed by the originating IP
+        Address. </font>
+    </p>
+    <p style="font-weight: normal; text-decoration: none"><font
+        face="Courier New, monospace">Upon
+        further investigation it has been noted that the users below
+        hold
+        specific roles which may make them the primary reason for being
+        targeted:</font></p>
+    <p><font face="Courier New, monospace"><span
+          style="text-decoration: none"><span
+            style="font-weight: normal">user1:
+            VP technology Last Password change: 30 days ago. Last breach
+            1 year
+            ago. Breach count: 3<br>
+            user2: Network Engineering Last password
+            change 8 months ago. Last breach 4 months ago. Breach count:
+            12.
+            Requires password change.<br>
+            user3: social media manager. Last
+            Password change 30 days ago. Last breach 5 months ago.
+            Breach count:
+            18<br>
+            user4: Accounting. Last password change 1.5 years ago. Last
+            breach 4 months ago. Breach count: 21. Requires password
+            change.</span></span></font></p>
+    <p style="font-weight: normal; text-decoration: none"><font
+        face="Courier New, monospace">From
+        the listing you can see each users last password change date as
+        well
+        as last breach involvement. It is advised that 2 of the 4 users
+        on
+        the list require an immediate password change and, if not
+        already
+        enabled MFA or security key.</font></p>
+    <p style="font-weight: normal; text-decoration: none"><font
+        face="Courier New, monospace">While
+        inspecting the web site / portal it has been noted that captcha
+        has
+        been enabled – it is strongly suggested by the SOC that the
+        owning
+        development team be notified of the events, and the following
+        suggestions be applied: </font>
+    </p>
+    <ul>
+      <li>
+        <p style="font-weight: normal; text-decoration: none"><font
+            face="Courier New, monospace">Stricter Captcha requirements
+            so that captcha cannot be replayed</font></p>
+      </li>
+      <li>
+        <p style="font-weight: normal; text-decoration: none"><font
+            face="Courier New, monospace">account lock out for the users
+            being enumerated / attacked (leave out if they are)</font></p>
+      </li>
+      <li>
+        <p style="font-weight: normal; text-decoration: none"><font
+            face="Courier New, monospace">Change user names to aliases
+            depending on position at the organization.</font></p>
+      </li>
+    </ul>
+    <p style="font-weight: normal; text-decoration: none"><font
+        face="Courier New, monospace">Additional
+        points to the web development team include: </font>
+    </p>
+    <ul>
+      <li>
+        <p style="font-weight: normal; text-decoration: none"><font
+            face="Courier New, monospace">Removal of terms/verbiage that
+            an account exists or that the account does not exist </font>
+        </p>
+      </li>
+      <li>
+        <p style="font-weight: normal; text-decoration: none"><font
+            face="Courier New, monospace">Time delays generated randomly
+            between authentication attempts</font></p>
+      </li>
+      <li>
+        <p style="font-weight: normal; text-decoration: none"><font
+            face="Courier New, monospace">IP Address limiting or other
+            security metrics (impossible travel, geo-location lockout,
+            zero-trust if available). </font> </p>
+      </li>
+    </ul>
+    <p style="font-weight: normal; text-decoration: none"><font
+        face="Courier New, monospace">Should
+        there need to be additional clarifications or, this ticket needs
+        to
+        be escalated – please let the SOC team know however, the IP
+        address
+        has been blocked company wide and monitoring for the above
+        accounts
+        will continue. </font>
+    </p>
+    <p style="font-weight: normal; text-decoration: none"><br>
+      <br>
+    </p>
+    <p style="font-weight: normal; text-decoration: none"><font
+        face="Courier New, monospace">Thank
+        you, </font>
+    </p>
+    <p style="font-weight: normal; text-decoration: none"><font
+        face="Courier New, monospace">SOC…
+      </font>
+    </p>
+    <p><br>
+    </p>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+Message-ID: <50d9741e-8703-4aed-b87d-e394f90d5c85@Company.com>
+Date: Tue, 14 Apr 2026 10:01:25 -0400
+MIME-Version: 1.0
+User-Agent: Mozilla Thunderbird
+Content-Language: en-US
+From: SOC <SOC@Company.com>
+Subject: Dark Web / Breach Site Exposure
+X-Enigmail-Draft-Status: N11222
+X-Mozilla-Draft-Info: internal/draft; vcard=0; receipt=0; DSN=0; uuencode=0;
+ attachmentreminder=0; deliveryformat=0
+X-Identity-Key: id22
+Fcc: mailbox://SOC%40Company.com@mail.Company.com/Sent
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <body>
+    <p><font face="Courier New, monospace">Hello
+        &lt;Manager / IR Lead / Legal&gt;,<br>
+        <br>
+        On &lt;date/time&gt;,
+        threat intelligence monitoring identified references to
+        &lt;organization
+        name&gt; data on an external breach site / forum.<br>
+        <br>
+        Observed
+        exposure includes:<br>
+        <br>
+        &lt;data type&gt; &lt;data
+        type&gt;<br>
+        <br>
+        Initial review suggests the data may originate
+        from:<br>
+        • Third-party breach<br>
+        • Legacy exposure<br>
+        •
+        Unknown source (under validation)<br>
+        <br>
+        No interaction with the
+        threat actor or download of datasets has occurred.<br>
+        <br>
+        Recommended
+        actions:<br>
+        • Validate affected accounts<br>
+        • Force
+        credential resets if applicable<br>
+        • Assess third-party
+        involvement<br>
+        • Determine regulatory impact<br>
+        <br>
+        Further
+        investigation is pending direction.<br>
+        <br>
+        SOC Team</font></p>
+    <p><br>
+    </p>
+  </body>
+</html>
