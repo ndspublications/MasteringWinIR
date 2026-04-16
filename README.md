@@ -1,111 +1,114 @@
 # Mastering Windows Incident Response
+# DFIR Dashboards & Detection Material
 
-# License
+This repository contains dashboards, configurations, and supporting material designed to accompany real-world Digital Forensics and Incident Response (DFIR) workflows.
 
-© 2026 Network Defense Solutions, Inc. All Rights Reserved.
+This is not lab-based theory or certification-focused content.
 
----
+These materials are built around how incidents actually unfold in live environments:
 
-1. Scope
-
-This repository and all associated content, including but not limited to:
-
-* Dashboards
-* Scripts
-* Tools
-* Configurations
-* Documentation
-* Learning materials
-
-(collectively referred to as the "Material") are provided for limited use under the terms defined below.
+* incomplete telemetry
+* inconsistent logging
+* fragmented visibility across systems
+* the need to validate attacker behavior under real constraints
 
 ---
 
-2. Permitted Use
+Purpose
 
-The Material is provided strictly for:
+The purpose of this repository is to provide practical, hands-on material for:
 
-* Individual, non-commercial educational use
-* Personal skill development
-* Controlled lab or development environment experimentation
+* Individual DFIR skill development
+* Threat hunting practice
+* Validation of attacker behavior across systems
+* Real-world investigative workflows
+
+This material is intended to complement the associated published work and provide a usable, applied extension of those concepts.
 
 ---
 
-3. Prohibited Use
+Repository Contents
 
-The following uses are strictly prohibited without an explicit commercial license:
+This repository may include:
 
-* Use by any corporation, business, or organization
-* Use within enterprise environments
-* Use within Security Operations Centers (SOCs) or production systems
-* Internal training programs or team enablement
+* Wazuh dashboards (`.ndjson`)
+* Detection logic and supporting scripts
+* Investigative workflows and examples
+* Supporting configurations and references
+
+---
+
+Usage
+
+Dashboards
+
+Dashboards are exported as `.ndjson` files and can be imported via:
+
+Menu → Dashboard Management → Saved Objects → Import
+
+Ensure your environment contains relevant data (e.g., `wazuh-alerts-*`) for dashboards to function as expected.
+
+---
+
+General Guidance
+
+* All material should be tested in a controlled lab or development environment
+* Do not deploy directly into production without validation
+* Expect differences between environments and adjust accordingly
+
+---
+
+Usage Restrictions
+
+This material is provided for **individual, non-commercial educational use only**.
+
+The following uses are not permitted without a commercial license:
+
+* Corporate or enterprise environments
+* Security Operations Centers (SOCs)
+* Internal team training or enablement
 * Consulting, contracting, or third-party service delivery
-* Use on behalf of any client or organization
-* Redistribution, resale, sublicensing, or inclusion in commercial offerings
+* Use on behalf of any organization or client
+
+For full terms, see `LICENSE.md`.
 
 ---
 
-4. Commercial Use
+Important Notice
 
-Any organization or individual intending to use the Material for:
+All scripts, dashboards, and configurations should be tested in a controlled environment prior to use.
 
-* Operational purposes
-* Commercial benefit
-* Organizational training
-* Client-facing services
-
-must obtain a commercial license.
-
-Instructions for obtaining a commercial license are provided within the associated published material.
+Use of this material in production or live systems is done entirely at your own risk.
 
 ---
 
-5. Usage Requirements
+Disclaimer
 
-All scripts, tools, and configurations must be tested in a controlled development or lab environment prior to any use.
+This material is provided "as is" without warranty of any kind.
 
-Use of this Material in production or live environments is done entirely at the user's own risk.
+Network Defense Solutions, Inc. assumes no responsibility or liability for:
 
----
-
-6. Limitation of Liability
-
-The Material is provided "as is" without warranty of any kind, express or implied.
-
-Network Defense Solutions, Inc. makes no guarantees regarding the accuracy, reliability, or effectiveness of the Material.
-
-Under no circumstances shall Network Defense Solutions, Inc. be held liable for any:
-
-* Direct or indirect damages
+* System disruption
 * Data loss
-* System failures
 * Security incidents
-* Business disruption
+* Operational impact
 
-arising from the use or misuse of the Material.
-
----
-
-7. Acceptance of Terms
-
-Use of this Material constitutes acceptance of the terms outlined in this license.
-
-Unauthorized use in violation of these terms may result in legal action.
+resulting from the use or misuse of this material.
 
 ---
 
-8. Copyright
+Companion Material
 
-All materials contained within this repository, as well as any associated published works, are protected under applicable copyright laws.
+This repository is designed to support the associated published work.
 
-This includes, but is not limited to:
+Additional context, methodology, and implementation details are provided within that material.
 
-* Written content
-* Dashboards and configurations
-* Scripts and tools
-* Methodologies and workflows
+---
 
-The associated published material (book) is separately protected under copyright and may not be reproduced, distributed, or used beyond the scope of its licensed terms.
+Final Note
 
-Unauthorized reproduction, distribution, or commercial use of any material is strictly prohibited.
+Incident Response is not performed in clean environments.
 
+This material reflects that reality.
+
+---
