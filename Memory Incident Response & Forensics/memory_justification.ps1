@@ -3,7 +3,7 @@
 # Company: Network Defense Solutions, Inc.
 # For Educational Use Only
 # Memory Acquisition Justification Script
-
+# REQUIRES dumpit.exe
 # ----------------------------
 # Initialize
 # ----------------------------
