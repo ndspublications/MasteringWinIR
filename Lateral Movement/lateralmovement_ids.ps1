@@ -1,13 +1,6 @@
-<#
-Correlates Windows event logs associated with lateral movement,
-remote execution, service creation, scheduled tasks, registry
-modifications, and PowerShell remoting.
-
-Scope:
-- Read-only event log collection
-- No active probing
-- Designed for IR timeline reconstruction
-#>
+#WINDOWS EVENT TIMELINES 
+#REMOTE EXECUTION, SERVICE CREATION, SCHEDULED TASKS, REGISTRY MODS, PS REMOTING
+#COLLECTION SHOULD BE RUN FROM A PRIV ACCOUNT (ADMIN/ADMINISTRATOR)
 
 param (
     [ValidateSet(30,60,90)]
