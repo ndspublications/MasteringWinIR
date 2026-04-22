@@ -1,4 +1,4 @@
-#I AM NOT A PS CODER SO THIS MIGHT FAIL BUT THE EXAMPLE STILL WORKS ::SHRUGS::
+#I AM NOT A GREAT PS CODER SO THIS MIGHT FAIL BUT THE EXAMPLE STILL WORKS ::SHRUGS::
 # Define the path to where you want the script to execute when triggered by an event
 $maliciousScript = "C:\Path\To\LegitScript.ps1"
 
